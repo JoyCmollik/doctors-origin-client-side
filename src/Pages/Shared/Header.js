@@ -7,8 +7,11 @@ import NavLinkStyled from './NavLinkStyled';
 
 const Header = () => {
 	return (
-		<header className='bg-secondary py-4'>
-			<div className='container mx-auto flex justify-between items-center'>
+		<header
+			className='bg-secondary py-4 fixed w-full'
+			style={{ zIndex: '99999999999' }}
+		>
+			<div className='container px-1 md:px-0 mx-auto flex justify-between items-center'>
 				<div className='md:hidden'>
 					<MobileNavDrawer />
 				</div>
