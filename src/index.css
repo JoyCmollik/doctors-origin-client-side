@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	min-height: 100vh;
+}
+
+.font-lora {
+	font-family: 'Lora', serif;
+}
+
+.font-poppins {
+	font-family: 'Poppins', sans-serif;
+}
