@@ -1,6 +1,6 @@
 # Doctors portal
 
-find this project here [Create React App](https://doctors-portal-3e0da.web.app/home).
+find this project here [Doctors Portal](https://doctors-portal-3e0da.web.app/home).
 
 This is a website focused on making all the doctors available online so the users can book their desired doctors sitting in their home.
 
