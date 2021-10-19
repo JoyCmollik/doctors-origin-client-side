@@ -8,6 +8,7 @@ import useAuth from '../hooks/useAuth';
 const Register = () => {
 	const {
 		handleEmailRegister,
+		handleUpdateUserProfile,
 		googleSignIn,
 		isLoading,
 		setIsLoading,
@@ -24,6 +25,7 @@ const Register = () => {
 		handleEmailRegister(email, password)
 			.then((result) => {
 				setError('');
+				handleUpdateUserProfile(name);
 				history.push(URI);
 			})
 			.catch((error) => {
@@ -82,7 +84,7 @@ const Register = () => {
 							{...register('password')}
 						/>
 						<input
-							className='bg-primary text-white p-4 w-full border rounded cursor-pointer transform hover:scale-95 transition duration-100'
+							className='bg-primary text-white p-4 w-full border-0 outline-none rounded cursor-pointer transform hover:scale-95 transition duration-100'
 							type='submit'
 							value='Register'
 							disabled={isLoading}

@@ -7,7 +7,7 @@ const DoctorsDemo = () => {
 	const { doctors } = useDoctors();
 
 	return (
-		<div className='bg-white pt-10 lg:pt-20'>
+		<div className='bg-white pt-10 lg:pt-20' id='doctors'>
 			{/* title */}
 			<div className='container mx-auto flex justify-between items-center text-main pb-10 lg:pb-20'>
 				<div className='space-y-2'>

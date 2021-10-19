@@ -10,7 +10,6 @@ const Login = () => {
 		user,
 		googleSignIn,
 		handleEmailLogin,
-		handleUpdateUserProfile,
 		isLoading,
 		setIsLoading,
 		setError,
@@ -79,7 +78,7 @@ const Login = () => {
 							{...register('password')}
 						/>
 						<input
-							className='bg-primary text-white p-4 w-full border rounded cursor-pointer transform hover:scale-95 transition duration-100'
+							className='bg-primary text-white p-4 w-full border-0 outline-none rounded cursor-pointer transform hover:scale-95 transition duration-100'
 							type='submit'
 							value='Login'
 							disabled={isLoading}

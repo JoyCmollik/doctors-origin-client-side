@@ -6,6 +6,7 @@ import LoginIcon from '@mui/icons-material/Login';
 import LogoutIcon from '@mui/icons-material/Logout';
 import NavLinkStyled from './NavLinkStyled';
 import useAuth from '../../hooks/useAuth';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Header = () => {
 	const { user, handleSignOut } = useAuth();
@@ -26,10 +27,14 @@ const Header = () => {
 				</Link>
 				<div className='hidden md:flex items-center space-x-4'>
 					<NavLinkStyled to='/home'>Home</NavLinkStyled>
-					<NavLinkStyled to='/about'>About us</NavLinkStyled>
-					<NavLinkStyled to='/doctors'>Doctors</NavLinkStyled>
-					<NavLinkStyled to='/blogs'>Blogs</NavLinkStyled>
-					<NavLinkStyled to='/contact'>Contact</NavLinkStyled>
+					<NavHashLink
+						className='px-2 py-1 rounded hover:bg-gray-100 focus:scale-0 transition ease-in duration-100'
+						to='/home#doctors'
+					>
+						Doctors
+					</NavHashLink>
+					<NavLinkStyled to='/locations'>Locations</NavLinkStyled>
+					<NavLinkStyled to='/faqs'>Faqs</NavLinkStyled>
 				</div>
 				<div className=''>
 					{!user.email ? (
@@ -39,12 +44,15 @@ const Header = () => {
 							</BtnPrimary>
 						</Link>
 					) : (
-						<BtnPrimary
-							onClick={handleSignOut}
-							endIcon={<LogoutIcon />}
-						>
-							Sign out
-						</BtnPrimary>
+						<div className='flex items-center space-x-2'>
+							<p className='text-main'>{user?.displayName}</p>
+							<BtnPrimary
+								onClick={handleSignOut}
+								endIcon={<LogoutIcon />}
+							>
+								Sign out
+							</BtnPrimary>
+						</div>
 					)}
 				</div>
 			</div>

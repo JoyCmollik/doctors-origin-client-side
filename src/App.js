@@ -10,11 +10,12 @@ import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login';
 import Footer from './Pages/Shared/Footer';
 import AuthProvider from './contexts/AuthProvider';
-import About from './Pages/About/About';
 import PrivateRoute from './Pages/Shared/PrivateRoute';
 import Doctors from './Pages/Doctors/Doctors';
 import DoctorInfo from './Pages/Doctors/DoctorInfo';
 import Register from './Register/Register';
+import Faqs from './Pages/Faqs/Faqs';
+import Locations from './Pages/Locations/Locations';
 
 function App() {
 	return (
@@ -33,6 +34,12 @@ function App() {
 							</Route>
 							<PrivateRoute path='/info/:doctorId'>
 								<DoctorInfo />
+							</PrivateRoute>
+							<PrivateRoute path='/faqs'>
+								<Faqs />
+							</PrivateRoute>
+							<PrivateRoute path='/locations'>
+								<Locations />
 							</PrivateRoute>
 							<Route path='/login'>
 								<Login />
