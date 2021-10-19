@@ -12,7 +12,71 @@
 		"dr_education_short": "MBBS, FCPS",
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -29,7 +93,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -46,7 +174,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -63,7 +255,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -80,7 +336,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -97,7 +417,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -114,7 +498,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -131,7 +579,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -148,7 +660,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	},
@@ -165,7 +741,71 @@
 		"dr_education_short": null,
 		"dr_education": null,
 		"dr_locaitons": null,
-		"dr_services": null,
+		"dr_services": [
+			{
+				"name": "emergency medicine",
+				"list": [
+					{
+						"service": "Anesthesiology",
+						"price": "282"
+					},
+					{
+						"service": "medical services",
+						"price": "252"
+					},
+					{
+						"service": "hospice medicine",
+						"price": "60"
+					},
+					{
+						"service": "cricital medicine",
+						"price": "307"
+					}
+				]
+			},
+			{
+				"name": "Medical genetics",
+				"list": [
+					{
+						"service": "Biochemical genetics",
+						"price": "252"
+					},
+					{
+						"service": "Cytogenetics",
+						"price": "152"
+					},
+					{
+						"service": "Clinical genetics",
+						"price": "109"
+					},
+					{
+						"service": "Genetic pathology",
+						"price": "301"
+					}
+				]
+			},
+			{
+				"name": "Pelvic surgery",
+				"list": [
+					{
+						"service": "Gynecologic oncology",
+						"price": "281"
+					},
+					{
+						"service": "Gynecologic oncology",
+						"price": "259"
+					},
+					{
+						"service": "Maternal-fetal medicine",
+						"price": "64"
+					},
+					{
+						"service": "Reproductive infertility",
+						"price": "400"
+					}
+				]
+			}
+		],
 		"dr_lowest_service_fee": null,
 		"dr_available_days": null
 	}

@@ -3,22 +3,36 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
-import useAuth from '../../hooks/useAuth';
+import useAuth from '../hooks/useAuth';
 
-const Login = () => {
+const Register = () => {
 	const {
-		user,
+		handleEmailRegister,
 		googleSignIn,
-		handleEmailLogin,
-		handleUpdateUserProfile,
 		isLoading,
 		setIsLoading,
+		error,
 		setError,
 	} = useAuth();
 	const location = useLocation();
 	const history = useHistory();
 	const URI = location?.from?.pathname || '/home';
 	const { register, handleSubmit } = useForm();
+
+	const onSubmit = ({ name, email, password }) => {
+		setIsLoading(true);
+		handleEmailRegister(email, password)
+			.then((result) => {
+				setError('');
+				history.push(URI);
+			})
+			.catch((error) => {
+				setError(error);
+			})
+			.finally(() => {
+				setIsLoading(false);
+			});
+	};
 
 	// sign in with google
 	const handleGoogleSignIn = () => {
@@ -27,22 +41,6 @@ const Login = () => {
 			.then((result) => {
 				setError('');
 				history.push(URI);
-			})
-			.finally(() => {
-				setIsLoading(false);
-			});
-	};
-
-	// sign in with email and password
-	const onSubmit = ({ email, password }) => {
-		setIsLoading(true);
-		handleEmailLogin(email, password)
-			.then((result) => {
-				setError('');
-				history.push(URI);
-			})
-			.catch((error) => {
-				setError(error);
 			})
 			.finally(() => {
 				setIsLoading(false);
@@ -60,12 +58,17 @@ const Login = () => {
 					style={{ maxWidth: '500px' }}
 				>
 					<h4 className='text-2xl text-light'>
-						Please Login to DoctorsPortal
+						Please Register Yourself Here
 					</h4>
 					<form
 						className='flex flex-col space-y-2 md:bg-white p-4 rounded mx-auto'
 						onSubmit={handleSubmit(onSubmit)}
 					>
+						<input
+							className='bg-white text-gray-400 focus-within:text-main p-4 w-full border rounded'
+							placeholder='write your name here'
+							{...register('name')}
+						/>
 						<input
 							className='bg-white text-gray-400 focus-within:text-main p-4 w-full border rounded'
 							placeholder='example@email.com'
@@ -81,16 +84,16 @@ const Login = () => {
 						<input
 							className='bg-primary text-white p-4 w-full border rounded cursor-pointer transform hover:scale-95 transition duration-100'
 							type='submit'
-							value='Login'
+							value='Register'
 							disabled={isLoading}
 						/>
 					</form>
 					<div className='px-4 space-y-4'>
 						<p className='text-white'>
-							Do not have an account yet?
-							<Link to='/register'>
+							Already is an user?
+							<Link to='/login'>
 								<span className='text-light ml-2'>
-									Register now
+									Login Now
 								</span>
 							</Link>
 						</p>
@@ -115,4 +118,4 @@ const Login = () => {
 	);
 };
 
-export default Login;
+export default Register;

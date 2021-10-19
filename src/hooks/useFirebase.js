@@ -7,6 +7,7 @@ import {
 	signInWithPopup,
 	createUserWithEmailAndPassword,
 	signInWithEmailAndPassword,
+	updateProfile,
 	signOut,
 } from 'firebase/auth';
 
@@ -23,6 +24,18 @@ const useFirebase = () => {
 
 	const googleSignIn = () => {
 		return signInWithPopup(auth, googleProvider);
+	};
+
+	const handleEmailRegister = (email, password) => {
+		return createUserWithEmailAndPassword(auth, email, password);
+	};
+
+	const handleEmailLogin = (email, password) => {
+		return signInWithEmailAndPassword(auth, email, password);
+	};
+
+	const handleUpdateUserProfile = (name) => {
+		updateProfile(auth.currenUser, { displayName: name }).then(() => {});
 	};
 
 	useEffect(() => {
@@ -56,8 +69,12 @@ const useFirebase = () => {
 	return {
 		user,
 		error,
+		setError,
 		isLoading,
 		setIsLoading,
+		handleEmailRegister,
+		handleEmailLogin,
+		handleUpdateUserProfile,
 		googleSignIn,
 		handleSignOut,
 	};

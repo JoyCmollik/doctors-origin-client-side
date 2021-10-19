@@ -14,6 +14,7 @@ import About from './Pages/About/About';
 import PrivateRoute from './Pages/Shared/PrivateRoute';
 import Doctors from './Pages/Doctors/Doctors';
 import DoctorInfo from './Pages/Doctors/DoctorInfo';
+import Register from './Register/Register';
 
 function App() {
 	return (
@@ -35,6 +36,9 @@ function App() {
 							</PrivateRoute>
 							<Route path='/login'>
 								<Login />
+							</Route>
+							<Route path='/register'>
+								<Register />
 							</Route>
 							<Route path='*'>
 								<NotFound />
