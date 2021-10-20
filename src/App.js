@@ -20,7 +20,7 @@ import Locations from './Pages/Locations/Locations';
 function App() {
 	return (
 		<AuthProvider>
-			<div className='bg-light min-h-screen flex flex-col justify-between'>
+			<div className='bg-white min-h-screen flex flex-col justify-between'>
 				<Router>
 					<Header />
 					<div style={{ paddingTop: '68px' }}>
