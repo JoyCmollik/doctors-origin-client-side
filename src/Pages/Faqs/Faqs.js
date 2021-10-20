@@ -5,6 +5,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import ControlPointIcon from '@mui/icons-material/ControlPoint';
 import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
 import LiveHelpIcon from '@mui/icons-material/LiveHelp';
+import { TextField } from '@mui/material';
+import BtnPrimary from '../Shared/BtnPrimary';
 
 const Faqs = () => {
 	const [expanded, setExpanded] = useState(false);
@@ -61,7 +63,7 @@ const Faqs = () => {
 			{/* title */}
 			<div className='container mx-auto flex justify-between items-center text-main pb-10 lg:pb-20'>
 				<div className='space-y-2'>
-					<h2 className='text-2xl lg:text-4xl xl:text-5xl font-bold'>
+					<h2 className='text-2xl lg:text-4xl xl:text-5xl font-lora'>
 						Browse Questions.
 					</h2>
 					<p>
@@ -82,41 +84,69 @@ const Faqs = () => {
 				</div>
 			</div>
 			{/* content */}
-			<div className='grid md:grid-cols-2 gap-2'>
-				{faqList.map((question, index) => (
-					<Accordion
-						key={index}
-						sx={{
-							boxShadow: 'none',
-							minHeight: '100px',
-						}}
-						expanded={expanded === index}
-						onChange={handleChange(index)}
-					>
-						<AccordionSummary
-							expandIcon={
-								expanded === index ? (
-									<RemoveCircleOutlineIcon
-										sx={{ color: 'red' }}
-									/>
-								) : (
-									<ControlPointIcon
-										sx={{ color: '#0E63F4' }}
-									/>
-								)
-							}
+			<div className='grid lg:grid-cols-12 gap-8'>
+				<div className='lg:col-span-7 space-y-2'>
+					{faqList.map((question, index) => (
+						<Accordion
+							key={index}
+							sx={{
+								boxShadow: 'none',
+								border: '1px solid lightgray',
+								borderRadius: '10px',
+								minHeight: '100px',
+							}}
+							expanded={expanded === index}
+							onChange={handleChange(index)}
 						>
-							<h2 className='text-main text-xl capitalize'>
-								{question?.ques}
-							</h2>
-						</AccordionSummary>
-						<AccordionDetails>
-							<div className='py-2 text-gray-500'>
-								{question?.answer}
-							</div>
-						</AccordionDetails>
-					</Accordion>
-				))}
+							<AccordionSummary
+								expandIcon={
+									expanded === index ? (
+										<RemoveCircleOutlineIcon
+											sx={{ color: 'red' }}
+										/>
+									) : (
+										<ControlPointIcon
+											sx={{ color: '#0E63F4' }}
+										/>
+									)
+								}
+							>
+								<h2 className='text-main text-xl capitalize'>
+									{question?.ques}
+								</h2>
+							</AccordionSummary>
+							<AccordionDetails>
+								<div className='py-2 text-gray-500'>
+									{question?.answer}
+								</div>
+							</AccordionDetails>
+						</Accordion>
+					))}
+				</div>
+				<div className='lg:col-span-5 border p-4 rounded'>
+					<div className='border p-4 space-y-2 rounded'>
+						<h4 className='text-main text-2xl text-center'>
+							Have Questions In Mind?
+						</h4>
+						<p className='text-gray-500 text-center'>
+							Let us help you.
+						</p>
+						<TextField
+							id='standard-multiline-static'
+							label='Write your question here!'
+							multiline
+							rows={4}
+							variant='standard'
+							sx={{ width: '100%', mt: 2 }}
+						/>
+						<BtnPrimary
+							size='large'
+							sx={{ background: '#0E63F4', width: '100%' }}
+						>
+							Submit
+						</BtnPrimary>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

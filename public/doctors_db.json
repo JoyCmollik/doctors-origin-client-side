@@ -2,16 +2,31 @@
 	{
 		"id": 1001,
 		"dr_name": "Ethan King",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
 		"dr_avatar": "https://i.ibb.co/FXJryzY/doctor-1.jpg",
 		"dr_rating": 3.5,
 		"dr_rating_counts": 593,
 		"dr_votes": 10,
-		"dr_education_short": "MBBS, FCPS",
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, FCPS (Psychiatry)",
+		"dr_field": "Cardiologist",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1113", "1118", "1114"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -78,21 +93,36 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1002,
 		"dr_name": "Emily Harris",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
+		"dr_field": "Dermatology",
 		"dr_avatar": "https://i.ibb.co/qCbqfYh/doctor-2.jpg",
 		"dr_rating": 4.5,
 		"dr_rating_counts": 900,
 		"dr_votes": 17,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, FCPS (Pulmonology)",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1113", "1118", "1114"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -159,21 +189,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1003,
 		"dr_name": "Ethan King",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
 		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+
 		"dr_avatar": "https://i.ibb.co/4N8WzVN/portrait-of-blond-woman-doctor-in-hospital.jpg",
 		"dr_rating": 4.5,
 		"dr_rating_counts": 482,
 		"dr_votes": 17,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "Ph.D, DPT, MS OMPT",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1113", "1118", "1114"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -240,21 +286,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1004,
 		"dr_name": "Charlie Martin",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
+		"dr_field": "Surgeon",
+
 		"dr_avatar": "https://i.ibb.co/s9VPf7r/doctor-4.jpg",
 		"dr_rating": 4,
 		"dr_rating_counts": 849,
 		"dr_votes": 10,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, FCPS",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1112", "1113", "1114"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -321,21 +383,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1005,
 		"dr_name": "Larry Gurrerro",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
+		"dr_field": "Anesthesiology",
+
 		"dr_avatar": "https://i.ibb.co/0nj7dLz/doctor-5.jpg",
 		"dr_rating": 3.5,
 		"dr_rating_counts": 401,
 		"dr_votes": 14,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS,DMRC,MS",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1114", "1117", "1115"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -402,21 +480,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1006,
 		"dr_name": "Ridhi Nair",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
+		"dr_field": "Ophthalmology",
+
 		"dr_avatar": "https://i.ibb.co/KNSx58B/doctor-6.jpg",
 		"dr_rating": 4.5,
 		"dr_rating_counts": 995,
 		"dr_votes": 17,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, FCPS - Oncology",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1114", "1112", "1115"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -483,21 +577,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1007,
 		"dr_name": "James Oliver",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
+		"dr_field": "Genetics",
+
 		"dr_avatar": "https://i.ibb.co/ySCcD4B/doctor-7.jpg",
 		"dr_rating": 3.5,
 		"dr_rating_counts": 482,
 		"dr_votes": 17,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, Diplomat",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1114", "1117", "1118"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -564,21 +674,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1008,
 		"dr_name": "Flores Emily",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
-		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
+		"dr_field": "Internal medicine",
+
 		"dr_avatar": "https://i.ibb.co/nrCCKHM/doctor-8.jpg",
 		"dr_rating": 4,
 		"dr_rating_counts": 138,
 		"dr_votes": 10,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, MD, FRCPS, MRCP, FCPS",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1114", "1115", "1117"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -645,21 +771,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1009,
 		"dr_name": "James Oliver",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
 		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+
 		"dr_avatar": "https://i.ibb.co/jyvCwFZ/doctor-9.jpg",
 		"dr_rating": 4.5,
 		"dr_rating_counts": 900,
 		"dr_votes": 10,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, FCPS, MRCP(UK)",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1112", "1115", "1113"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -726,21 +868,37 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	},
 	{
 		"id": 1010,
 		"dr_name": "Ethan King",
-		"dr_desc": "Consectetur adipisicing eliteiuim sete eiu tempor incidit utoreas etnalom dolore maena aliquae udiminimate veniam quis norud exercita ullamco laboris nisi aliquip commodo consequat Duis aute irure dolor inem reprederit inoluptate velit esse cillum dolore eu fugiat nulla pariatur eexcepteur occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis",
+		"dr_desc": ", MD, FCCP, is a graduate of George Washington University Medical School. He trained in internal medicine at the University of Oregon Health Sciences and pulmonary critical care medicine and the University of Southern California.Sample has been practicing since 1976, the last 12 years in Washington, D.C., at the Washington Hospital Center, selected as one of the top 100 hospitals in the United States.",
 		"dr_field": "Cardiologist",
-		"dr_specialities": null,
+
 		"dr_avatar": "https://i.ibb.co/YkWZ0tw/doctor-10.jpg",
 		"dr_rating": 4,
 		"dr_rating_counts": 401,
 		"dr_votes": 17,
-		"dr_education_short": null,
-		"dr_education": null,
-		"dr_locaitons": null,
+		"dr_education_short": "MBBS, MPhiL",
+		"dr_education": [
+			{
+				"subject": "Periodontology & Oral Implantology ",
+				"college": "Delta Tricon Dental College",
+				"year": "2010 - 2012"
+			},
+			{
+				"subject": "MBA - Hospital Managementy",
+				"college": "Arena Missions University",
+				"year": "2008 - 2010"
+			},
+			{
+				"subject": "Oral Medicine and Radiology",
+				"college": "New Apollo Hospital, California",
+				"year": "2006 - 2008"
+			}
+		],
+		"dr_locations": ["1111", "1115", "1117", "1114", "1118"],
 		"dr_services": [
 			{
 				"name": "emergency medicine",
@@ -807,6 +965,6 @@
 			}
 		],
 		"dr_lowest_service_fee": null,
-		"dr_available_days": null
+		"dr_available_days": "Monday to Friday 09.00am-06.00pm"
 	}
 ]

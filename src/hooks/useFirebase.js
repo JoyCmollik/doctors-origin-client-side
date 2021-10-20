@@ -35,7 +35,13 @@ const useFirebase = () => {
 	};
 
 	const handleUpdateUserProfile = (name) => {
-		updateProfile(auth.currenUser, { displayName: name }).then(() => {});
+		updateProfile(auth.currentUser, {
+			displayName: name,
+		})
+			.then(() => {})
+			.catch((error) => {
+				console.log(error);
+			});
 	};
 
 	useEffect(() => {

@@ -1,5 +1,6 @@
-import { Google } from '@mui/icons-material';
 import React from 'react';
+import { Google } from '@mui/icons-material';
+import Alert from '@mui/material/Alert';
 import { useForm } from 'react-hook-form';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
@@ -17,7 +18,11 @@ const Login = () => {
 	const location = useLocation();
 	const history = useHistory();
 	const URI = location?.from?.pathname || '/home';
-	const { register, handleSubmit } = useForm();
+	const {
+		register,
+		handleSubmit,
+		formState: { errors },
+	} = useForm();
 
 	// sign in with google
 	const handleGoogleSignIn = () => {
@@ -65,18 +70,43 @@ const Login = () => {
 						className='flex flex-col space-y-2 md:bg-white p-4 rounded mx-auto'
 						onSubmit={handleSubmit(onSubmit)}
 					>
-						<input
-							className='bg-white text-gray-400 focus-within:text-main p-4 w-full border rounded'
-							placeholder='example@email.com'
-							type='email'
-							{...register('email')}
-						/>
-						<input
-							className='bg-white text-gray-400 focus-within:text-main p-4 w-full border rounded'
-							placeholder='your password'
-							type='password'
-							{...register('password')}
-						/>
+						<div className='space-y-1'>
+							<input
+								className='bg-white text-gray-400 focus-within:text-main p-4 w-full border rounded'
+								placeholder='example@email.com'
+								type='email'
+								{...register('email', { required: true })}
+							/>
+							{errors.email && (
+								<Alert severity='error'>
+									email is required
+								</Alert>
+							)}
+						</div>
+						<div className='space-y-1'>
+							<input
+								className='bg-white text-gray-400 focus-within:text-main p-4 w-full border rounded'
+								placeholder='your password'
+								type='password'
+								{...register('password', {
+									required: true,
+									pattern:
+										/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/,
+								})}
+							/>
+							{errors.password &&
+								(errors.password?.type === 'required' ? (
+									<Alert severity='error'>
+										password is required
+									</Alert>
+								) : (
+									<Alert severity='error'>
+										Password must contain eight characters
+										including at least one number and
+										character
+									</Alert>
+								))}
+						</div>
 						<input
 							className='bg-primary text-white p-4 w-full border-0 outline-none rounded cursor-pointer transform hover:scale-95 transition duration-100'
 							type='submit'
@@ -84,7 +114,7 @@ const Login = () => {
 							disabled={isLoading}
 						/>
 					</form>
-					<div className='px-4 space-y-4'>
+					<div className='space-y-4'>
 						<p className='text-white'>
 							Do not have an account yet?
 							<Link to='/register'>

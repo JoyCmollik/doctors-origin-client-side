@@ -1,0 +1,128 @@
+[
+	{
+		"loc_id": "1111",
+		"img": "https://i.ibb.co/0hKf6pZ/loc3.jpg",
+		"name": "Sacred Sprash Care",
+		"moto": "We're in this together",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology"
+		],
+		"region": "United Emirates",
+		"days": "Mon, Tue, Thus, Fri, Sun",
+		"doctors_onboard": "7"
+	},
+	{
+		"loc_id": "1112",
+		"img": "https://i.ibb.co/6mw9cZW/loc4.jpg",
+		"name": "willow green hospital",
+		"moto": "The heart of your healthcare",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology"
+		],
+		"region": "United Emirates",
+		"days": "Mon, Wed, Thus, Fri, Sun",
+		"doctors_onboard": "4"
+	},
+	{
+		"loc_id": "1113",
+		"img": "https://i.ibb.co/9Tz4bxR/loc5.jpg",
+		"name": "summer spring hospital",
+		"moto": "All the best",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology",
+			"Child Pediatrics",
+			"Clinical Genetics"
+		],
+		"region": "Australia",
+		"days": "Mon, Tue, Fri, Sat, Sun",
+		"doctors_onboard": "8"
+	},
+	{
+		"loc_id": "1114",
+		"img": "https://i.ibb.co/YP85cDX/loc6.jpg",
+		"name": "well and good clinic",
+		"moto": "Care close to home",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology",
+			"Biochemical genetics"
+		],
+		"region": "United Kingdom (UK)",
+		"days": "Mon, Tue, Thus, Fri, Sun",
+		"doctors_onboard": "10"
+	},
+	{
+		"loc_id": "1115",
+		"img": "https://i.ibb.co/c1VsmGb/loc7.jpg",
+		"name": "Health Object Hospital",
+		"moto": "Exceptional care that treats you",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology"
+		],
+		"region": "Bangladesh",
+		"days": "Mon, Tue, Thus, Fri, Sun",
+		"doctors_onboard": "5"
+	},
+	{
+		"loc_id": "1116",
+		"img": "https://i.ibb.co/xLzMyPG/loc8.jpg",
+		"name": "Sunshine Hospital",
+		"moto": "To see you healthy again",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology",
+			"Cardiovascular"
+		],
+		"region": "USA",
+		"days": "Mon, Tue, Thus, Sat, Sun",
+		"doctors_onboard": "7"
+	},
+	{
+		"loc_id": "1117",
+		"img": "https://i.ibb.co/c1pJYFp/loc1.jpg",
+		"name": "WeCare Clinic",
+		"moto": "Get well soon to laugh again",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology",
+			"Child Pediatrics",
+			"Clinical Genetics"
+		],
+		"region": "United Kingdom (UK)",
+		"days": "Mon, Tue, Thus, Fri, Sun",
+		"doctors_onboard": "14"
+	},
+	{
+		"loc_id": "1118",
+		"img": "https://i.ibb.co/X7hx3KB/loc2.jpg",
+		"name": "Delta Hospital",
+		"moto": "Shining you health every single day",
+		"tags": [
+			"Adolescent medicine",
+			"Aerospace medicine",
+			"Anatomical Pathology",
+			"Anesthesiology"
+		],
+		"region": "Singapore",
+		"days": "Mon, Tue, Thus, Fri, Sun",
+		"doctors_onboard": "10"
+	}
+]

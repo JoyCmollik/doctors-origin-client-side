@@ -1,23 +1,26 @@
 import React from 'react';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
 import BtnPrimary from '../Shared/BtnPrimary';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
 const Location = (props) => {
 	const { img, name, moto, tags, region, days, doctors_onboard } =
 		props.location;
 	return (
-		<div className='bg-white rounded grid grid-cols-12 gap-4 p-4 border border-gray-100'>
+		<div className='bg-white shadow rounded grid grid-cols-12 gap-4 p-4 border'>
 			{/* left side */}
 			<div className='col-span-12 md:col-span-8 space-y-4'>
-				<div className='flex justify-between space-x-2'>
-					<div className='border-4 border-gray-200 rounded shadow'>
+				<div className='grid md:grid-cols-12 space-x-2'>
+					<div className='h-auto col-span-12 md:col-span-4 border-4 overflow-hidden border-gray-200  rounded shadow'>
 						<img
-							className='object-contain rounded'
+							className='h-44 w-full object-cover rounded'
 							src={img}
 							alt={name}
 						/>
 					</div>
-					<div className='w-full p-2'>
+					<div className='w-full col-span-12 md:col-span-8 p-2'>
 						<h2 className='text-xl text-main font-medium mb-1'>
 							{name}
 						</h2>
@@ -26,7 +29,10 @@ const Location = (props) => {
 				</div>
 				<div className='flex flex-wrap'>
 					{tags.map((tag, index) => (
-						<p className='px-2 bg-light text-dark mr-2 mb-2'>
+						<p
+							key={index}
+							className='px-2 bg-light text-dark mr-2 mb-2'
+						>
 							{tag}
 						</p>
 					))}
@@ -42,19 +48,19 @@ const Location = (props) => {
 				</p>
 				<p className='text-gray-500'>
 					<span className='mr-2'>
-						<LocationOnIcon size='small' />
+						<AccessAlarmIcon size='small' />
 					</span>
 					{days}
 				</p>
 				<p className='text-gray-500'>
 					<span className='mr-2'>
-						<LocationOnIcon size='small' />
+						<LocalHospitalIcon size='small' />
 					</span>
 					Doctors Onboard: {doctors_onboard}
 				</p>
 				<p className='text-gray-500 mb-4'>
 					<span className='mr-2'>
-						<LocationOnIcon size='small' />
+						<CheckBoxIcon size='small' />
 					</span>
 					24/7 Available
 				</p>

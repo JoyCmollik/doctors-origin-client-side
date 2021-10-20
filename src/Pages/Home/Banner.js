@@ -12,7 +12,16 @@ const images = [
 		imgPath: 'https://i.ibb.co/sRddLHM/hero-bg.png',
 	},
 	{
+		imgPath: 'https://i.ibb.co/xX8WbWW/hero-bg3.png',
+	},
+	{
 		imgPath: 'https://i.ibb.co/Hq9mPHS/hero-bg2.png',
+	},
+	{
+		imgPath: 'https://i.ibb.co/tKkGmRB/hero-bg5.png',
+	},
+	{
+		imgPath: 'https://i.ibb.co/PN9DYP2/hero-bg4.png',
 	},
 ];
 

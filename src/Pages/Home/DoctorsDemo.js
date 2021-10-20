@@ -11,7 +11,7 @@ const DoctorsDemo = () => {
 			{/* title */}
 			<div className='container mx-auto flex justify-between items-center text-main pb-10 lg:pb-20'>
 				<div className='space-y-2'>
-					<h2 className='text-2xl lg:text-4xl xl:text-5xl font-bold'>
+					<h2 className='font-lora text-2xl lg:text-4xl xl:text-5xl font-bold'>
 						Browse doctors.
 					</h2>
 					<p>Easily book a doctor according to your preferences.</p>

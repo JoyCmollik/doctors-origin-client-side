@@ -12,10 +12,10 @@ import Footer from './Pages/Shared/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Shared/PrivateRoute';
 import Doctors from './Pages/Doctors/Doctors';
-import DoctorInfo from './Pages/Doctors/DoctorInfo';
-import Register from './Register/Register';
+import DoctorInfo from './Pages/Home/DoctorInfo';
 import Faqs from './Pages/Faqs/Faqs';
 import Locations from './Pages/Locations/Locations';
+import Register from './Pages/Register/Register';
 
 function App() {
 	return (
